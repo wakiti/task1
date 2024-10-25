@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #ffefd8;
+}
+
+.container {
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.container h1 {
+    color: rgb(104, 59, 16);
+    font-size: 20vh;
+    margin: 0 0 0 300px;
+}
+
+.container h2 {
+    color: rgb(245, 171, 86);
+    font-size: 7vh;
+    margin: 0 0 0 350px;
+}
+
+.container h3 {
+    color: rgb(0, 0, 0);
+    font-size: 5vh;
+    margin: 50px 0 0 50px;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+input {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(245, 171, 86);
+    border: 6px solid rgb(134, 77, 12);
+    border-radius: 20px;
+    margin: 15px 0 0 50px;
+    height: 10vh;
+    width: 95vh;
+    padding: 0px;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: #eba134;
+    margin: 50px 0 50px 50px;
+    border: 5px solid #96641a;
+    font-size: 30px;
+    border-radius: 50px;
+    height: 6vh;
+    width: 20vh;
+    padding: 0px;
+}
+
+hr {
+    margin: 70px 0 80px 300px;
+    width: 90%;
+    border: 3px solid rgb(134, 77, 12);
+}
+
+ul {
+    font-size: 20px;
+    font-style: normal;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+.edit-icon,
+.delete-icon {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.edit-icon {
+    color: #007bff;
+    margin: 0 10px 0 10px;
+}
+
+.delete-icon {
+    color: #dc3545;
+    margin: 0 10px 0 10px;
+}
